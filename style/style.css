@@ -1,0 +1,107 @@
+/* Angel's CSS */
+#body {
+    background-color: black;
+    text-align: center;
+}
+
+#header {
+    text-decoration: underline;
+    text-decoration-color: rgb(222, 206, 115);
+    font-family: Impact, fantasy
+}
+
+.filter {
+    background-color: rgb(222, 206, 115);
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.text {
+    color: rgb(252, 254, 217);
+    font-family: Impact, fantasy;
+}
+
+#resetButton {
+    background-color: rgb(92, 39, 2);
+    color: rgb(0, 0, 0);
+    border: 1px solid rgb(252, 255, 163);
+    border-radius: 5px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+#troopText {
+    color: rgb(252, 254, 217);
+    font-family: Impact, fantasy;
+    font-size: 20px;
+}
+
+/* Florencio's CSS */
+#dog_page {
+    background-color: slategray;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#dog_inputs {
+    margin-right: 15px;
+}
+
+#dog_breed_text_input {
+    border-radius: 5px;
+    padding: 5px;
+}
+
+#reset {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+}
+
+#reset_button {
+    background-color: gray;
+    color: white;
+}
+
+#reset_button:hover {
+    transform: scale(1.5);
+}
+
+#dog_card {
+    margin-top: 30px;
+    padding: 0;
+}
+
+.dog_card {
+    border: 5px solid black;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.dog_card h3 {
+    font-family: Impact;
+    font-weight: bold;
+}
+
+.dog_card p {
+    font-family: 'Franklin Gothic Medium';
+    font-weight: normal;
+}
+
+.dog_card:hover {
+    transform: scale(1.05);
+    background-color: lightblue;
+}
+
+#dog_footer {
+    color: white;
+    background-color: #222529;
+    margin-top: auto;
+    font-weight: bold;
+    text-align: center;
+}
